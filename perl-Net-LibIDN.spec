@@ -3,7 +3,7 @@
 Summary:    Perl bindings for GNU LibIDN
 Name:       perl-Net-LibIDN
 Version:    0.12
-Release:    13%{?dist}
+Release:    15%{?dist}
 License:    GPL+ or Artistic
 Group:      Development/Libraries
 URL:        http://search.cpan.org/dist/%{pkgname}/
@@ -58,6 +58,12 @@ make test
 %{perl_vendorarch}/auto/Net
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.12-15
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.12-14
+- Mass rebuild 2013-12-27
+
 * Tue Nov 27 2012 Petr Pisar <ppisar@redhat.com> - 0.12-13
 - Modernize spec file
 
